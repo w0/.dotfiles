@@ -2,6 +2,8 @@ export PATH=$PATH:$HOME/.local/bin:$HOME/.local/go/bin
 export COLORTERM=truecolor
 export EDITOR=/usr/bin/nvim
 
+alias stow="stow -d ~/.dotfiles -t ~"
+
 # set the directory we want to store zinit and plugins
 ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
 
